@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>传统医药</title>
+	<style>
+		/* CSS Document */
+
+		#tou {
+			/*border:1px solid #333;*/
+			width: 1000px;
+			/*顶图大小*/
+			margin: 5px auto 5px auto;
+		}
+
+		ul,
+		li,
+		img {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			border: 0;
+		}
+
+		body {
+			font-size: 18px;
+			line-height: 30px;
+		}
+
+		/*banner样式*/
+		.banner {
+			overflow: hidden;
+			width: 1000px;
+			height: 300px;
+			background-image: url(../img/index1/ccyy/bn.jpg);
+		}
+
+		.wenzii {
+			margin-top: 25px;
+			margin-left: 880px;
+			width: 400px;
+		}
+
+		.wenzii3 a {
+			font-size: 20px;
+			color: #000000;
+			font-family: "微软雅黑";
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		.wenzii3 a:hover {
+			text-decoration: none;
+			color: #FF0004;
+		}
+
+		/*导航栏的样式*/
+		nav ul {
+			margin-top: -10px;
+			height: 80px;
+			/*导航栏高度*/
+			padding-left: 80px;
+			overflow: hidden;
+			background: #BC2332;
+		}
+
+		nav ul li {
+			float: left;
+			line-height: 50px;
+			/*导航栏文字高度*/
+			padding: 0 30px;
+			margin-top: 15px;
+		}
+
+		nav a {
+			font-size: 20px;
+			font-family: "微软雅黑";
+			font-weight: bold;
+			text-decoration: none;
+			color: #000000;
+		}
+
+		nav a:hover {
+			text-decoration: none;
+			color: #ffffff;
+		}
+
+		.pagebody {
+			width: 1000px;
+			background: #C6B7B8;
+			overflow: hidden;
+		}
+
+		.pgleft {
+			width: 1000px;
+			overflow: hidden;
+		}
+
+		.pgtop {
+			background: #C5B48B;
+			width: 1000px;
+			height: 40x;
+			margin-top: 8px;
+		}
+
+		.pgtop a {
+			font-size: 18px;
+			font-family: "微软雅黑";
+			font-weight: bold;
+		}
+
+		.left1 {
+			width: 750px;
+			height: 350px;
+			float: left;
+			/*border: 1px solid #000000;*/
+			margin-left: 10px;
+			margin-top: 5px;
+		}
+
+		.left1 a {
+			font-family: "宋体";
+			font-weight: bold;
+			color: #474747;
+			font-size: 18px;
+			line-height: 1em;
+			padding-left: 20px;
+		}
+
+		.left2 {
+			/*border: 1px #000000 solid;*/
+			width: 200px;
+			height: 300px;
+			float: right;
+			margin-top: 20px;
+			background-image: url(../img/index1/ccyy/1.jpg);
+			background-repeat: no-repeat;
+		}
+
+		.pgleft1 {
+			width: 1000px;
+			overflow: hidden;
+		}
+
+		.pgtop {
+			background: #C5B48B;
+			width: 1000px;
+			height: 40x;
+			margin-top: 8px;
+		}
+
+		.pgtop a {
+			font-size: 18px;
+			font-family: "微软雅黑";
+			font-weight: bold;
+		}
+
+		.left3 {
+			width: 750px;
+			height: 350px;
+			float: right;
+			/*border: 1px solid #000000;*/
+			margin-left: 10px;
+			margin-top: 5px;
+		}
+
+		.left3 a {
+			font-family: "宋体";
+			font-weight: bold;
+			color: #474747;
+			font-size: 18px;
+			line-height: 1em;
+			padding-left: 20px;
+		}
+
+		.left4 {
+			/*border: 1px #000000 solid;*/
+			width: 200px;
+			height: 300px;
+			float: left;
+			margin-top: 20px;
+			background-image: url(../img/index1/ccyy/2.jpg);
+			background-repeat: no-repeat;
+		}
+
+		/*作品展示*/
+		.pgleft3 {
+			width: 1000px;
+			overflow: hidden;
+		}
+
+		.bottom {
+			height: 220px;
+			margin-top: 15px;
+		}
+
+		.b1 {
+			float: left;
+			width: 300px;
+			/*border: 1px solid #011784;*/
+			height: 200px;
+			margin-left: 25px;
+			background-image: url(../img/index1/ccyy/03.jpg);
+		}
+
+		.b2 {
+			float: left;
+			width: 300px;
+			/*border: 1px solid #0D8C00;*/
+			height: 200px;
+			margin-left: 20px;
+			background-image: url(../img/index1/ccyy/02.jpg);
+		}
+
+		.b3 {
+			float: left;
+			width: 300px;
+			/*border: 1px solid #0D8C00;*/
+			height: 200px;
+			margin-left: 20px;
+			background-image: url(../img/index1/ccyy/01.jpg);
+		}
+
+		.footer {
+			position: relative;
+			top: 10px;
+			float: left;
+			font-family: Arial;
+			font-size: 16px;
+			color: #fff;
+			padding: 5px 0;
+			background-color: #BC2332;
+			width: 100%;
+			box-sizing: border-box;
+			text-align: center;
+		}
+
+		.footer a {
+			color: #fff;
+		}
+
+		.footcolour {
+			color: #FFF;
+		}
+
+		.footer a:link {
+			text-decoration: none;
+		}
+
+		.footer a:visited {
+			text-decoration: none;
+		}
+
+		.footer a:hover {
+			color: #FF0004;
+			text-decoration: none;
+		}
+
+		.footer a:active {
+			text-decoration: none;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="../in.css/bj.css">
+</head>
+
+<body>
+	<div id="tou">
+		<!--banner-->
+		<div class="banner">
+			<div class="wenzii">
+				<!--	/*<div class="wenzii3">
+				<a href="demo1.2.html">查看更多</a>
+			</div>*/-->
+			</div>
+			<!--banner上的文字-->
+		</div><!--banner图片-->
+		<!--导航栏-->
+
+		<div class="header">
+			<nav>
+				<ul>
+					<li><a href="#"><img src="../img/index/1.jpg"></a></li>
+					<li><a href="../index.html">首页</a></li>
+					<li><a href="index1.html">非遗项目</a></li>
+					<li><a href="../index2/demo1.html">非遗活动</li>
+					<li><a href="../index3/demo2.html">传承人物</li>
+					<li><a href="../index4/demo4.html">互动交流</a></li>
+				</ul>
+			</nav>
+			<!--主体部分-->
+			<div class="pagebody">
+				<!--青檀-->
+				<div class="pgleft">
+					<div class="pgtop"><a>传统医药神话故事</a></div>
+					<div class="left1">
+						<a>扁鹊起死回生：扁鹊是战国时期的名医，他最著名的典故是让虢太子“起死回生”。虢太子死了几天后，扁鹊说他只是患了尸厥症，然后用针灸术使他苏醒。尽管众人都觉得扁鹊很神，但扁鹊却说自家三兄弟都学医，大哥最厉害，能在患者还没发病时，观察肌肤纹理就看出端倪并将病灶扼杀于摇篮；二哥在病人小病时就能治好，而自己则是因为救治的都是重症患者，才被人们认为医术高超。
+							张仲景制服瘟疫：张仲景是东汉末年著名医学家，其家族原本有200多口人，因瘟疫肆虐，三分之二的人不幸去世，这让张仲景痛下决心研究瘟疫诊治方法。他仔细研读古代医书并广泛搜集治病方药，在收集了二十年资料后，于公元205年开始写医书，并将其命名为《伤寒杂病论》。经过五年写作，该书系统地分析了伤寒的原因、症状、发展阶段和处理方法，其中的三百多个药方被后世称为“经方”，成为医家用药的标准。2020年国家推荐使用的清肺排毒汤就源自《伤寒杂病论》。</a>
+
+					</div>
+					<div class="left2">
+					</div>
+				</div>
+				<!--功能与价值-->
+				<div class="pgleft1">
+					<div class="pgtop"><a>功能与价值</a></div>
+					<div class="left3">
+						<a>人参：被誉为“百草之王”，具有大补元气、复脉固脱、补脾益肺、生津养血、安神益智等功效。常用于治疗体虚欲脱、肢冷脉微、脾虚食少、肺虚喘咳、津伤口渴、内热消渴、气血亏虚、久病虚羸、惊悸失眠、阳痿宫冷等病症。例如，在一些身体极度虚弱的患者调理中，人参常常发挥重要作用。
+							当归：能补血活血、调经止痛、润肠通便。多用于血虚萎黄、眩晕心悸、月经不调、经闭痛经、虚寒腹痛、风湿痹痛、跌扑损伤、痈疽疮疡、肠燥便秘等。许多女性调理气血的方剂中，当归都是不可或缺的成分。
+							黄芪：具有补气升阳、固表止汗、利水消肿、生津养血、行滞通痹、托毒排脓、敛疮生肌等作用。适用于气虚乏力、食少便溏、中气下陷、久泻脱肛、便血崩漏、表虚自汗、气虚水肿、内热消渴、血虚萎黄、半身不遂、痹痛麻木、痈疽难溃、久溃不敛等。在提高人体免疫力方面，黄芪有着显著效果。
+							冬虫夏草：补肾益肺、止血化痰。常用于肾虚精亏、阳痿遗精、腰膝酸痛、久咳虚喘、劳嗽咯血等。
+						</a>
+					</div>
+					<div class="left4">
+					</div>
+				</div>
+				<!--展示-->
+				<div class="pgleft3">
+					<div class="pgtop"><a>作品展示</a></div>
+					<div class="bottom">
+						<div class="b1"></div>
+						<div class="b2"></div>
+						<div class="b3"></div>
+					</div>
+				</div>
+				<!--主体部分-->
+				<!--版权信息-->
+				<div class="footer">
+					<a href="#">网站首页&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><a
+						href="#">关于我们&nbsp;&nbsp;</a></span><a>|</a>
+					<a href="#">联系我们&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><a
+						href="#">新闻资讯&nbsp;&nbsp;</a></span><a>|</a>
+					<a href="#">更多内容&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><br>
+					<span>copyright</span><span>©2024-2025邮箱:zhongqiwang@163.com</span><br><span>中祺网</span>
+					<!--版权信息-->
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

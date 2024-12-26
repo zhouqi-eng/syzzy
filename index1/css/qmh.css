@@ -1,0 +1,402 @@
+#imgtop {
+    width: 1000px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+#imgtop img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#imgtop img.active {
+    opacity: 1;
+}
+
+ul,
+li,
+img {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+}
+
+/*1-20变换图像*/
+
+.jianjie1-q {
+    /* border: 1px solid #F00; */
+    overflow: hidden;
+
+}
+
+.jjleft {
+    width: 400px;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+.jjright {
+    width: 580px;
+    height: 200px;
+    float: right;
+
+}
+
+.jjright ul li {
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    /*字体颜色*/
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF0004;
+    /*鼠标移动上面的颜色*/
+}
+
+img {
+    margin: 0px 0 0 0;
+    /*logo上下浮动会影响其他图片未居中*/
+    text-align: center;
+    float: 5
+}
+
+.pagebady {
+    /* border: 2px solid #FF7900; */
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+/*非遗项目主体内容*/
+.pg1 {
+    /* border: 1px solid #723DD4; */
+    overflow: hidden;
+}
+
+.pg1top {
+    font-family: "微软雅黑";
+    font-size: 24px;
+    float: none;
+    background: #800000;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.pg1left {
+    float: left;
+    /* border: 1px solid #DB1AE0; */
+    width: 350px;
+    height: 200px;
+    font-size: 12px;
+    /*灰色圆角字体大小*/
+}
+
+.pg1left ul li {
+    line-height: 40px;
+}
+
+.pg1right {
+    padding-left: 10px;
+    position: relative;
+    bottom: 1px;
+    float: right;
+    /* border: 1px solid #000000; */
+    width: 620px;
+    height: 200px;
+    border-radius: 10px;
+    line-height: 35px;
+}
+
+.pg1right span {
+    padding-left: 2em;
+}
+
+.pg1bottom {
+    height: 150px;
+    margin-top: 205px;
+
+
+}
+
+.pg1bottom1 {
+    float: left;
+    width: 239px;
+    height: 140px;
+    margin-right: 11px;
+}
+
+.pg1bottom2 {
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-right: 6px;
+}
+
+.pg1bottom3 {
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 6px;
+}
+
+.pg1bottom4 {
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 11px;
+    margin-right: px;
+}
+
+/*非遗活动主题内容*/
+.pg2 {
+    /* border: 1px solid #723DD4; */
+    overflow: hidden;
+}
+
+.pg1top {
+    float: none;
+    background: #D8EBEA;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pg2left {
+    padding-left: 10px;
+    float: left;
+    /* border: 1px solid #DB1AE0; */
+    width: 620px;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 12px;
+    /*灰色圆角字体大小*/
+}
+
+.pg2left span {
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.pg2right {
+    line-height: 25px;
+    float: right;
+    /* border: 1px solid #000000; */
+    width: 350px;
+    height: 200px;
+    font-size: 12px;
+    /*灰色圆角字体大小*/
+
+}
+
+.pg2bottom {
+    margin-top: 200px;
+    height: 140px;
+}
+
+.pg2bottom1 {
+    position: relative;
+    right: 80px;
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 50px;
+
+}
+
+.pg2bottom2 {
+    position: relative;
+    left: 20px;
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 50px;
+}
+
+.pg2bottom3 {
+    position: relative;
+    left: 150px;
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pg3 {
+    /* border: 1px solid #723DD4; */
+    overflow: hidden;
+}
+
+.pg1top {
+    float: none;
+    background: #D8EBEA;
+    height: 40px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pg3left {
+    line-height: 30px;
+    float: left;
+    /* border: 1px solid #DB1AE0; */
+    width: 350px;
+    height: 200px;
+    font-size: 12px;
+    /*灰色圆角字体大小*/
+
+}
+
+.pg3right {
+    line-height: 35px;
+    padding-left: 10px;
+    float: right;
+    /* border: 1px solid #000000; */
+    width: 620px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.pg3bottom {
+    margin-top: 205px;
+    height: 140px;
+
+}
+
+.pg3bottom1 {
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-right: 2px;
+}
+
+.pg3bottom2 {
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 10px;
+}
+
+.pg3bottom3 {
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 10px;
+}
+
+.pg3bottom4 {
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.pg4 {
+    /* border: 1px solid #723DD4; */
+    overflow: hidden;
+}
+
+.pg1top {
+    float: none;
+    background: #D8EBEA;
+    height: 40px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pg4left {
+    line-height: 35px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 3px;
+    float: left;
+    /*	border: 1px solid #DB1AE0;
+*/
+    width: 620px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.pg4right {
+    line-height: 30px;
+    float: right;
+    /*	border: 1px solid #000000;
+*/
+    width: 350px;
+    height: 200px;
+    font-size: 12px;
+    /*灰色圆角字体大小*/
+}
+
+.pg4bottom {
+    margin-top: 200px;
+    height: 140px;
+}
+
+.pg4bottom1 {
+    position: relative;
+    right: 50px;
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 50px;
+}
+
+.pg4bottom2 {
+    position: relative;
+    left: 50px;
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 50px;
+}
+
+.pg4bottom3 {
+    position: relative;
+    left: 180px;
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*问题代码*/
+h3 {
+    font-size: 24px;
+}
+
+.pg1right {
+    background-color: #C6C7C0;
+}
+
+.pg2left {
+    background-color: #C6C7C0;
+}
+
+.pg3right {
+    background-color: #C6C7C0;
+}
+
+.pg4left {
+    background-color: #C6C7C0;
+}

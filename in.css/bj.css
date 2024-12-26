@@ -1,0 +1,56 @@
+/* CSS Document */
+#all {
+	width: 1000px;
+	margin: 5px auto 5px auto;
+}
+
+body {
+	background-image: url("../index2/fyly/img/2..jpg");
+	/* 将 'image.jpg' 替换为您的图片路径 */
+	background-repeat: no-repeat;
+	/* 防止图片重复 */
+	background-size: cover;
+	/* 图片铺满整个页面 */
+	background-attachment: fixed;
+	/* 固定背景图片，防止滚动时图片移动 */
+}
+
+hr {
+	margin: 8px 0 2px 0;
+	color: #999;
+	border: 1px #999 solid;
+}
+
+.footer {
+	float: left;
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding: 5px 0;
+	background-color: #BC2332;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 5px;
+}
+.footer a{
+	color:#fff;}
+.footcolour {
+	color: #FFF;
+}
+
+.footer a:link {
+	text-decoration: none;
+}
+
+.footer a:visited {
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: none;
+}
+
+.footer a:active {
+	text-decoration: none;
+}

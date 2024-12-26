@@ -1,0 +1,544 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>非遗项目</title>
+	<link rel="stylesheet" type="text/css" href="../in.css/bj.css">
+
+	<style>
+		.pulse {
+			--color: #FF6;
+			--hover: #FCF;
+		}
+
+		.pulse:hover,
+		.pulse:focus {
+			-webkit-animation: pulse 1s;
+			animation: pulse 1s;
+			box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+		}
+
+		button {
+			color: var(--color);
+			-webkit-transition: 0.25s;
+			transition: 0.25s;
+		}
+
+		button:hover,
+		button:focus {
+			border-color: var(--hover);
+			color: #0F3;
+		}
+
+		button {
+			background: none;
+			border: 2px solid;
+			font: inherit;
+			line-height: 1;
+			margin: 0.5em;
+			padding: 1em 2em;
+		}
+
+		@-webkit-keyframes pulse {
+			0% {
+				box-shadow: 0 0 0 0 var(--hover);
+			}
+		}
+
+		@keyframes pulse {
+			0% {
+				box-shadow: 0 0 0 0 var(--hover);
+			}
+		}
+
+		.footer {
+			position: relative;
+			top: 10px;
+			float: left;
+			font-family: Arial;
+			font-size: 16px;
+			color: #fff;
+			padding: 5px 0;
+			background-color: #BC2332;
+			width: 100%;
+			box-sizing: border-box;
+			text-align: center;
+		}
+
+		.footer a {
+			color: #fff;
+		}
+
+		.footcolour {
+			color: #FFF;
+		}
+
+		.footer a:link {
+			text-decoration: none;
+		}
+
+		.footer a:visited {
+			text-decoration: none;
+		}
+
+		.footer a:hover {
+			color: #FF0004;
+			text-decoration: none;
+		}
+
+		.footer a:active {
+			text-decoration: none;
+		}
+	</style>
+
+	<style type="text/css">
+		#tou {
+			/*border:1px solid #333;*/
+			width: 1000px;
+			/*顶图大小*/
+			margin: 5px auto 5px auto;
+		}
+
+		ul,
+		li,
+		img {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			border: 0;
+		}
+
+		body {
+			font-size: 18px;
+			line-height: 30px;
+		}
+
+		/*banner*/
+
+		/*主体部分*/
+		.pagebody {
+			width: 1000px;
+
+			/*	background: #C6B7B8;主体背景*/
+			overflow: hidden;
+		}
+
+		/*非遗活动简介*/
+		.pg1 {
+			width: 1000px;
+			height: 300px;
+			overflow: hidden;
+			/*	border: 1px solid #3400FF;*/
+		}
+
+		.pg1top {
+			width: 1000px;
+			height: 60px;
+			/*	border: 1px solid #FFCE00;*/
+		}
+
+		.pg1top a {
+			font-family: "微软雅黑";
+			font-weight: bold;
+			font-size: 25px;
+			padding-left: 425px;
+			height: 200px;
+		}
+
+		.pg1top2 a {
+			font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+			font-size: 18px;
+			padding-left: 280px;
+		}
+
+		.pg1topB a {
+			font-family: "微软雅黑";
+			font-weight: bold;
+			font-size: 25px;
+			padding-left: 425px;
+			height: 200px;
+		}
+
+		.pg1top2B a {
+			font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+			font-size: 18px;
+			padding-left: 320px;
+		}
+
+		/*文字图片一模块*/
+		.left1 {
+			width: 460px;
+			height: 240px;
+			float: left;
+			/*	border: 1px solid #000000;*/
+			margin-left: 10px;
+			border-radius: 10px;
+			background-color: #d2b182;
+		}
+
+		.left1 a {
+			font-family: "宋体";
+			font-weight: bold;
+			color: #474747;
+			font-size: 18px;
+			line-height: 1em;
+			padding-left: 20px;
+		}
+
+		.left1B {
+			width: 980px;
+			height: px;
+			float: left;
+			/*	border: 1px solid #000000;*/
+			margin-left: 10px;
+			margin-right: 10px;
+			background-color: #ccc;
+			margin-left: 10px;
+			border-radius: 10px;
+
+		}
+
+		.left1B a {
+			padding-left: 20px;
+			font-family: "宋体";
+			font-weight: bold;
+			color: #474747;
+			font-size: 18px;
+			line-height: 1em;
+		}
+
+		.left2 {
+			/*	border: 1px #000000 solid;
+*/
+			width: 500px;
+			height: 240px;
+			margin-right: 10px;
+			float: right;
+			background-image: url(../img/index1/index/1.jpg);
+			background-repeat: no-repeat;
+		}
+
+		/*参观体验*/
+		.pg2 {
+			width: 1000px;
+			height: 300px;
+			overflow: hidden;
+			margin-top: 10px;
+			/*	border: 1px solid #00B41C;*/
+		}
+
+		.pg2top {
+			width: 1000px;
+			height: 60px;
+			/*	border: 1px solid #FFCE00;*/
+		}
+
+		.pg2top a {
+			font-family: "微软雅黑";
+			font-weight: bold;
+			font-size: 25px;
+			padding-left: 450px;
+		}
+
+		.pg2top2 a {
+			font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+			font-size: 18px;
+			padding-left: 430px;
+		}
+
+		/*文字图片二模块*/
+		.left3 {
+			width: 300px;
+			height: 200px;
+			float: left;
+			/*	border: 1px solid #000000;*/
+			margin-left: 15px;
+			background-image: url(../img/index1/index/21.jpg);
+			background-repeat: no-repeat;
+		}
+
+		.left4 {
+			/*border: 1px #000000 solid;*/
+			width: 300px;
+			height: 200px;
+			margin-left: 30px;
+			float: left;
+			background-image: url(../img/index1/index/22.jpg);
+			background-repeat: no-repeat;
+		}
+
+		.left5 {
+			/*border: 1px #000000 solid;*/
+			width: 300px;
+			height: 200px;
+			margin-left: 30px;
+			float: left;
+			background-image: url(../img/index1/index/23.jpg);
+			background-repeat: no-repeat;
+		}
+
+		/*非遗之美*/
+		.pg3 {
+			width: 1000px;
+			height: 500px;
+			overflow: hidden;
+			/*border: 1px solid #3400FF;*/
+		}
+
+		.pg3top {
+			width: 1000px;
+			height: 60px;
+			/*border: 1px solid #FFCE00;*/
+		}
+
+		.pg3top a {
+			font-family: "微软雅黑";
+			font-weight: bold;
+			font-size: 25px;
+			padding-left: 450px;
+		}
+
+		.pg3top2 a {
+			font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+			font-size: 18px;
+			padding-left: 350px;
+		}
+
+		/*文字图片三模块*/
+		.left6 {
+			/*	border: 1px solid #FF0000;*/
+			width: 1000px;
+			height: 500px;
+			margin-left: 20px;
+
+		}
+
+		.footon {
+			width: 1000px;
+			height: 400px;
+			background-image: url(../img/index1/index/footon.jpg);
+		}
+
+		/*版权信息*/
+		.footer {
+			float: left;
+			font-family: Arial;
+			font-size: 12px;
+			color: #fff;
+			/*	padding: 5px 0;*/
+			background-color: #BC2332;
+			width: 100%;
+			box-sizing: border-box;
+			text-align: center;
+		}
+
+		.footcolour {
+			color: #FFF;
+		}
+
+		.left5 {
+			transform: rotateX(180deg);
+			transition: transform 1s ease;
+			/*翻转*/
+		}
+
+		.left5:hover {
+			/* transform: scale3d(0.8, 0.8, 0.8);  鼠标悬停时缩小 */
+			transform: rotateX(0deg);
+
+		}
+	</style>
+</head>
+<link rel="stylesheet" href="./css/demo01.css">
+<link rel="stylesheet" href="./css/nav.css">
+<link rel="stylesheet" href="./css/swiper.css">
+<script src="./js/swiper.js"></script>
+<style type="text/css">
+	.mySwiper {
+		width: 1000px;
+		height: 400px;
+		margin: 0 auto;
+		border: 1px solid #000;
+	}
+
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.swiper-slide img {
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
+<body>
+	<div id="tou">
+		<!--banner-->
+		<!--banner-->
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="../img/index/13.jpg"></div>
+				<div class="swiper-slide"><img src="../img/index/bz/2.jpg"></div>
+				<div class="swiper-slide"><img src="../img/index1/index/bn.jpg"></div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<!--banner图片-->
+
+		<div class="header">
+			<div class="nav">
+				<nav>
+					<ul>
+						<li><a class="pulse" href="../index.html">首页</a></li>
+						<li><a class="pulse" href="#">传统技艺</a>
+							<ul>
+								<li><a href="ctjy/jz.html">剪纸</a></li>
+								<li><a href="ctjy/cx.html">刺绣</a></li>
+								<li><a href="ctjy/pyx.html">皮影戏</a></li>
+								<li><a href="ctjy/taoci.html">陶瓷</a></li>
+								<li><a href="ctjy/yzs.html">油纸伞</a></li>
+								<li><a href="ctjy/zb.html">竹编</a></li>
+							</ul>
+						</li>
+						<li><a class="pulse" href="#">传统戏剧</a>
+							<ul>
+								<li><a href="ctxj/jin.html">京剧</a></li>
+								<li><a href="ctxj/yue.html">越剧</a></li>
+								<li><a href="ctxj/kun.html">昆曲</a></li>
+								<li><a href="ctxj/ping.html">评戏</a></li>
+								<li><a href="ctxj/yu.html">豫剧</a></li>
+							</ul>
+						</li>
+						<li><a class="pulse" href="ctyy.html">传统医药</a></li>
+						<li><a class="pulse" href="mjwx.html">民间文化</a></li><!--导航栏-->
+					</ul>
+				</nav>
+			</div>
+
+			<!--主体部分-->
+			<div class="pagebody">
+				<!--青檀-->
+				<div class="pg1">
+					<div class="pg1top">
+						<a>非遗简介</a>
+						<div class="pg1top2">
+							<a>Introduction to intangible cultural heritage items
+							</a>
+						</div>
+					</div>
+					<div class="pg1bottom">
+						<div class="left1">
+							<a>非遗的组成展示了中国非遗的丰富多样性和深厚文化底蕴，每一项非遗都承载着特定地区、民族或群体的历史记忆、智慧和情感，对于传承和弘扬中华民族优秀传统文化具有重要意义。
+								中国政府高度重视非遗保护工作，亲身体验和参与非遗活动也是深入了解和感受非遗魅力的好方法。保护和传承非遗是我们每个人的责任，共同努力可以让这些独特的文化瑰宝永远传承下去。</a>
+						</div>
+						<a href="ctjy/taoci.html">
+							<div class="left2"></div>
+						</a>
+					</div>
+				</div>
+
+
+				<!--第二-->
+				<div class="pg1">
+					<div class="pg1topB">
+						<a>非遗之美</a>
+						<div class="pg1top2B">
+							<a>The beauty of intangible cultural heritage
+
+							</a>
+						</div>
+					</div>
+					<div class="pg1bottom">
+						<div class="left1B">
+							<a>非遗承载着深厚的历史文化内涵，它是一个民族或群体在长期的生产生活中积累的智慧结晶。比如京剧，其精美的服饰、独特的唱腔、丰富的故事，都蕴含着中国传统文化中对于道德、伦理、审美等方面的思考和表达。技艺精湛之美：
+								许多非遗项目都需要高超的技艺才能完成。像苏绣，绣娘们用细腻的针法和精湛的技巧，在绸缎上绣出栩栩如生的花鸟鱼虫，这种精湛的技艺令人赞叹不已。<br>
+								非遗的传承往往是一代又一代人口传心授，传承者们坚守着对传统文化的热爱和执着，这种传承精神本身就是一种美。比如纳西族东巴文化的传承者，他们不顾艰难，坚持将古老的文字和传统传承下去。一些非遗项目体现了人类与自然的和谐共处。如竹编技艺，利用天然的竹子，经过巧妙的编织，成为实用又美观的器具，展现了对自然材料的充分利用和尊重。与自然和谐之美：</a>
+						</div>
+						<!--		<div class="left2"></div>-->
+					</div>
+				</div>
+				<!--参观体验-->
+				<div class="pg2">
+					<div class="pg2top">
+						<a>参观体验</a>
+						<div class="pg2top2">
+							<a>Visit experience</a>
+						</div>
+					</div>
+					<div class="pg2bottom">
+						<a href="ctjy/pyx.html">
+							<div class="left3"></div>
+						</a>
+						<a href="ctxj/kun.html">
+							<div class="left4"></div>
+						</a>
+						<a href="mjwx.html">
+							<div class="left5"></div>
+						</a>
+					</div>
+				</div>
+				<!--非遗之美-->
+				<div class="pg3">
+					<div class="pg3top">
+						<a>非遗知识</a>
+						<div class="pg3top2">
+							<a>Intangible cultural heritage knowledge
+							</a>
+						</div>
+					</div>
+
+					<div class="footon"></div>
+					<!--<div class="pg3bottom">
+				<div class="left6">
+					<video width="960" height="448" controls  autoplay="autoplay">
+						<source src="video/1.mp4" type="video/mp4" />
+						<!--<object data="video/1.mp4" width="960" height="448">
+							<embed src="video/1.mp4" width="960" height="448" />
+						</object>-->
+					<!--</video>
+				</div>
+			</div>-->
+				</div>
+			</div>
+			<!--主体部分-->
+			<!--版权信息-->
+			<div class="footer">
+				<a href="#">网站首页&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><a
+					href="#">关于我们&nbsp;&nbsp;</a></span><a>|</a>
+				<a href="#">联系我们&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><a
+					href="#">新闻资讯&nbsp;&nbsp;</a></span><a>|</a>
+				<a href="#">更多内容&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><br>
+				<span>copyright</span><span>©2024-2025邮箱:zhongqiwang@163.com</span><br><span>中祺网</span>
+				<!--版权信息-->
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	var swiper = new Swiper(".mySwiper", {
+		spaceBetween: 30,
+		centeredSlides: true,
+		autoplay: {
+			delay: 3000,
+			disableOnInteraction: false,
+		},
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+	});
+</script>
+
+</html>

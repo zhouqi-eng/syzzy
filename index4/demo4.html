@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.pulse {
+			--color: #FF6;
+			--hover: #FCF;
+		}
+
+		.pulse:hover,
+		.pulse:focus {
+			-webkit-animation: pulse 1s;
+			animation: pulse 1s;
+			box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+		}
+
+		button {
+			color: var(--color);
+			-webkit-transition: 0.25s;
+			transition: 0.25s;
+		}
+
+		button:hover,
+		button:focus {
+			border-color: var(--hover);
+			color: #0F3;
+		}
+
+		button {
+			background: none;
+			border: 2px solid;
+			font: inherit;
+			line-height: 1;
+			margin: 0.5em;
+			padding: 1em 2em;
+		}
+
+		@-webkit-keyframes pulse {
+			0% {
+				box-shadow: 0 0 0 0 var(--hover);
+			}
+		}
+
+		@keyframes pulse {
+			0% {
+				box-shadow: 0 0 0 0 var(--hover);
+			}
+		}
+	</style>
+
+	<title>互动交流</title>
+	<style type="text/css">
+		#tou {
+			/*border:1px solid #333;*/
+			width: 1000px;
+			/*顶图大小*/
+			margin: 5px auto 5px auto;
+		}
+
+		ul,
+		li,
+		img {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			border: 0;
+		}
+
+		body {
+			font-size: 18px;
+			line-height: 30px;
+			background-image: url("img/2.jpg");
+			/* 将 'image.jpg' 替换为您的图片路径 */
+			background-repeat: no-repeat;
+			/* 防止图片重复 */
+			background-size: cover;
+			/* 图片铺满整个页面 */
+			background-attachment: fixed;
+			/* 固定背景图片，防止滚动时图片移动 */
+		}
+
+		/*banner*/
+		.banner {
+			overflow: hidden;
+			width: 1000px;
+			height: 300px;
+		}
+
+		/*导航栏的样式*/
+		nav ul {
+			margin-top: -10px;
+			height: 80px;
+			/*导航栏高度*/
+			padding-left: 30px;
+			overflow: hidden;
+			background: #BC2332;
+		}
+
+		nav ul li {
+			float: left;
+			line-height: 50px;
+			/*导航栏文字高度*/
+			padding: 0 50px;
+			margin-top: 15px;
+		}
+
+		nav a {
+			font-size: 20px;
+			font-family: "微软雅黑";
+			font-weight: bold;
+			text-decoration: none;
+			color: #000000;
+		}
+
+		nav a:hover {
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+
+		/*主体部分*/
+		.pagebody {
+			width: 1000px;
+			height: 1420px;
+
+
+			/*	background: #C6B7B8;主体背景*/
+			overflow: hidden;
+		}
+
+		/*走进网络简介*/
+		.pg1 {
+			width: 1000px;
+			height: 300px;
+			overflow: hidden;
+			/*border: 1px solid #3400FF;*/
+		}
+
+		.pg1top {
+			width: 1000px;
+			height: 40px;
+			/*border: 1px solid #FFCE00;*/
+			margin-top: 10px;
+		}
+
+		.pg1top a {
+			font-family: "微软雅黑";
+			font-weight: bold;
+			font-size: 25px;
+			padding-left: 20px;
+		}
+
+		/*走进网络文字1模块*/
+		.left1 {
+			width: 980px;
+			height: 600px;
+			float: left;
+			border-top: 2px solid #000000;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		.left1 a {
+			font-family: "宋体";
+			font-weight: bold;
+			color: #474747;
+			font-size: 18px;
+			line-height: 1em;
+			padding-left: 20px;
+		}
+
+		/*中间图片*/
+		.pg2 {
+			width: 1000px;
+			height: 300px;
+			overflow: hidden;
+			/*border: 1px solid #00B41C;*/
+		}
+
+		.pg2bottom {
+			width: 1000px;
+			height: 300px;
+			float: left;
+			background-image: url("img/banner1.jpg");
+			margin-top: 15px;
+		}
+
+		/*走进网络文字2模块*/
+		.pg3top {
+			width: 980px;
+			height: 400px;
+			float: left;
+			/*border: 1px solid #000000;*/
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-top: 20px;
+		}
+
+		.pg3top a {
+			font-family: "宋体";
+			font-weight: bold;
+			color: #474747;
+			font-size: 18px;
+			line-height: 1em;
+			padding-left: 20px;
+		}
+
+		/*文字二*/
+		.pg3 {
+			width: 1000px;
+			height: 400px;
+			overflow: hidden;
+			/*border: 1px solid #3400FF;*/
+		}
+
+		.pg3top {
+			width: 980px;
+			height: 360px;
+			margin-left: 10px;
+			margin-right: 10px;
+			border-bottom: 2px solid #000000;
+		}
+
+		/*版权信息*/
+		.footer {
+			position: relative;
+			top: 10px;
+			float: left;
+			font-family: Arial;
+			font-size: 16px;
+			color: #fff;
+			padding: 5px 0;
+			background-color: #BC2332;
+			width: 100%;
+			box-sizing: border-box;
+			text-align: center;
+		}
+
+		.footer a {
+			color: #fff;
+		}
+
+		.footcolour {
+			color: #FFF;
+		}
+
+		.footer a:link {
+			text-decoration: none;
+		}
+
+		.footer a:visited {
+			text-decoration: none;
+		}
+
+		.footer a:hover {
+			color: #FF0004;
+			text-decoration: none;
+		}
+
+		.footer a:active {
+			text-decoration: none;
+		}
+
+		textarea {
+			outline: none;
+			margin: 0 0 10px 50px;
+			width: 650px;
+		}
+
+		.leave ul {
+			margin: 0;
+			padding: 0;
+		}
+
+		.leave li {
+			list-style: none;
+			margin: 0 0 10px 100px;
+			font-size: 16px;
+			color: #DA6B6D;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="tou">
+		<!--banner-->
+		<!--banner-->
+		<div class="banner"><img src="img/banner2.jpg"></div>
+		<!--banner图片-->
+		<div class="header">
+			<nav>
+				<ul>
+					<li><a class="pulse" href="../index.html">首页</a></li>
+					<li><a class="pulse" href="../index2/demo1.html">非遗活动</a></li>
+					<li><a class="pulse" href="../index1/index1.html">非遗项目</a></li>
+					<li><a class="pulse" href="../index3/demo2.html">传承人物</a></li>
+					<li><a class="pulse" href="demo4.html">互动交流</a></li><!--导航栏-->
+				</ul>
+			</nav>
+
+			<!--主体部分-->
+			<div class="pagebody">
+				<!--青檀-->
+				<div class="pg1">
+					<div class="pg1top">
+						<a>走进网络，畅聊兴趣爱好与生活点滴。</a>
+					</div>
+					<div class="pg1bottom">
+						<div class="left1">
+							<a>非物质文化遗产是指被各社区，群体，视为其文化遗产组成部分的各种传统文化表现形式，以及与传统文化表现形式相关的实物和场所，这些文化表现形式包括但不限于口头传统和表现形式，表演艺术，社会实践，仪式节庆活动，有关自然界和宇宙的知识和实践，以及传统手工艺等，非物质文化遗产在世代相传中不断地被再创造，为社区和群体提供认同感和持续感，从而增强对文化多样性和人类创造力的尊重。这是一场让人们期盼已久的论坛盛会，许多重量级的非遗研究学者们济济一堂，共商非遗传播大计。现场的讨论非常热烈，每一个参会者都怀着激动的心情，表述自己的观点和看法。这是发生在2022年10月15日，以“丝路和田·千年传承
+								—
+								非遗融合·文创跨界”为主题的和田非遗文创对话活动（论坛）上的一幕。该论坛在北京市东城区德必天坛WE文创园区成功举办，采用了线上线下同步参与的方式，由和田地委宣传部、和田地区文化体育广播电视和旅游局主办，北京设计学会协办，北京创悦文化发展有限公司承办。</a>
+						</div>
+					</div>
+				</div>
+				<!--直播互动-->
+				<div class="pg2">
+					<div class="pg2bottom">
+					</div>
+				</div>
+				<!--文字-->
+				<div class="pg3">
+					<div class="pg3top">
+						<a>其中，参与现场的嘉宾有中国民族民间工艺美术家协会非遗传承与创新发展工作委员会常务副主任兼秘书周建彤，北京服装学院长聘二级教授、博士生导师宁俊，中国非物质文化遗产保护协会职业教育专业委员会常务副主任冯午生，光明日报光明网创新发展中心主任、光明文创负责人边保京，中央美院高级工艺师朱景华。这次论坛的举办方式，主要是以研讨会+圆桌会议形式开展，论坛核心主题是以延续2022第四届和田非遗文创大赛“非遗融合·文创跨界”的主题，通过对话活动的形式，探讨和田非遗文创的广度和深度的共创开发模式，提升和田文创产品设计水平，推动非遗文创产品的可持续发展，丰富和田非遗产品的市场，促进非遗文化产业化、专业化、品牌化平台化发展。和田玉天下闻名。早在丝绸之路举起之际，和田便已经成为南道上的重镇，具有丰富的非遗文化资源及深厚的历史积淀，荟萃几千年历史文明的精华，创造了辉煌灿烂的古代文明，为进一步推进和田文化多元化发展，以市场为导向促进高质量文创产品研发，形成以文促旅、以旅兴文、文旅融合的发展新格局，论坛围绕如何提取和田非遗文创IP元素、非遗文创融合发展中要注意的问题等相关问题展开积极讨论。深入开展文化润疆”为指导方向。与会嘉宾不仅结合自身的非遗和文创经验，充分的研讨了论坛“非遗融合·文创跨界”的主题，同时也为和田非遗文创大赛及日后持续性的文创产品开发提出了大量建设性意见。相信越来越多人的努力，非遗融合、文创跨界与全国的文创人才携起手来，一定可以更好的推广非遗文化，让其暴发新的生机与活力。</a>
+					</div>
+				</div>
+
+				<div class="leave">
+					<p>留言板:</p>
+					<textarea name="bbs" id="bbs" cols="30" rows="10"></textarea>
+					<button>发布</button>
+					<p>评论区:</p>
+					<ul class="plq">
+						<li>**：周祺好帅</li>
+						<li>*：一楼大大说的对！！！！尖锐爆鸣声！</li>
+						<li>心如止水：说得对。。。</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<!--主体部分-->
+		<!--版权信息-->
+		<div class="footer">
+			<a href="#">网站首页&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><a href="#">关于我们&nbsp;&nbsp;</a></span><a>|</a>
+			<a href="#">联系我们&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><a href="#">新闻资讯&nbsp;&nbsp;</a></span><a>|</a>
+			<a href="#">更多内容&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><br>
+			<span>copyright</span><span>©2024-2025邮箱:zhongqiwang@163.com</span><br><span>中祺网</span>
+			<!--版权信息-->
+		</div>
+	</div>
+</body>
+<script>var ul = document.querySelector('.plq');
+	var text = document.querySelector('textarea');
+	var btn = document.querySelector('button')
+	btn.onclick = function () {
+		if (text.value == '') {
+			alert('您没有输入内容');
+			return false;
+		} else {
+			var li = document.createElement('li');
+			li.innerHTML = text.value;
+			ul.insertBefore(li, ul.children[0]);
+		}
+	}
+</script>
+
+</html>

@@ -1,0 +1,91 @@
+/* CSS Document */
+
+#tou{
+	border:1px solid #333;
+	width:1000px;/*顶图大小*/
+	margin:5px auto 5px auto;}
+ul,li,img{ padding: 0; margin: 0; list-style: none; border: 0;}	
+body{
+	font-size: 18px;
+	line-height: 30px;
+	}
+/*banner样式*/
+.banner{
+	overflow:hidden;
+	width: 1000px;
+	height: 300px;
+	background: url(../img/index1/ctjy/zb/2.jpg);
+	}
+/*导航栏的样式*/
+nav ul{
+	margin-top: -10px;
+	height:60px;/*导航栏高度*/
+	padding-left:20px;
+	overflow:hidden;
+	background: #860002;}
+nav ul li{
+	float:left;
+	line-height:60px;/*导航栏文字高度*/
+	padding:0 20px;
+}
+nav a{
+	font-size:20px;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	text-decoration:none;
+	color: #FFFFFF;}
+/*主体部分*/
+/*敦煌学的产生*/
+.pagebody{
+	width: 1000px;
+	height: 800px;
+	background: #F9F5DF;
+	overflow: hidden;}
+.pg1{
+/*	border: 1px solid #29DC53;*/
+	float: left;
+	margin-top: 40px;
+	margin-left: 50px;
+	width:1000px;
+	}
+.pg1 a{
+	font-family: "微软雅黑";
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-weight: bold;
+	font-size: 35px;
+	}
+/*内容大边框*/
+.pg2{
+	width: 1000px;
+	border: 1px solid #2A00FF;
+		}
+/*左边图片*/
+.pg2left{
+	width: 200px;
+	height: 350px;
+/*	border: 1px solid #29DC53;*/
+	float: left;
+	margin-left: 80px;
+	margin-top: 30px;
+	background: url(../img/index1/ctjy/zb/1.jpg);
+	}
+/*右边内容*/
+.pg2right{
+	float: left;
+	width: 650px;
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-right: 10px;
+/*	border: 1px solid #000000;*/
+		}
+.pg2right a{
+	font-size: 16px;
+	text-indent: 2em;
+	margin-top: 5px;
+		}
+/*下边文字内容*/
+.pg3{
+	margin-left: 20px;
+	margin-right: 25px;
+	float: left;
+	font-size: 16px;}

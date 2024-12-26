@@ -1,0 +1,282 @@
+/*-----------------*/
+#tou {
+    /*border:1px solid #333;*/
+    width: 1000px;
+    /*顶图大小*/
+    margin: 5px auto 5px auto;
+}
+
+ul,
+li,
+img {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+}
+
+body {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*banner*/
+.banner {
+    overflow: hidden;
+    width: 1000px;
+    height: 300px;
+}
+
+.pagebody {
+    width: 1000px;
+    /*	background: #C6B7B8;主体背景*/
+    overflow: hidden;
+}
+
+/*非遗活动简介*/
+.pg1 {
+    width: 1000px;
+    height: 300px;
+    overflow: hidden;
+    /*	border: 1px solid #3400FF;*/
+}
+
+.pg1top {
+    width: 1000px;
+    height: 60px;
+    /*	border: 1px solid #FFCE00;*/
+}
+
+.pg1top a {
+    font-family: "微软雅黑";
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 425px;
+    height: 200px;
+}
+
+.pg1top2 a {
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+    font-size: 18px;
+    padding-left: 280px;
+}
+
+.pg1topB a {
+    font-family: "微软雅黑";
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 425px;
+    height: 200px;
+}
+
+.pg1top2B a {
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+    font-size: 18px;
+    padding-left: 320px;
+}
+
+/*-------------------*/
+/*文字图片一模块*/
+.left1 {
+    width: 460px;
+    height: 240px;
+    float: left;
+    /*	border: 1px solid #000000;*/
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #d2b182;
+}
+
+.left1 a {
+    font-family: "宋体";
+    font-weight: bold;
+    color: #474747;
+    font-size: 18px;
+    line-height: 1em;
+    padding-left: 20px;
+}
+
+.left1B {
+    width: 980px;
+    height: px;
+    float: left;
+    /*	border: 1px solid #000000;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ccc;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+
+.left1B a {
+    padding-left: 20px;
+    font-family: "宋体";
+    font-weight: bold;
+    color: #474747;
+    font-size: 18px;
+    line-height: 1em;
+}
+
+.left2 {
+    /*	border: 1px #000000 solid;
+*/
+    width: 500px;
+    height: 240px;
+    margin-right: 10px;
+    float: right;
+    background-image: url(../../img/index1/index/1.jpg);
+    background-repeat: no-repeat;
+}
+
+/*参观体验*/
+.pg2 {
+    width: 1000px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 10px;
+    /*	border: 1px solid #00B41C;*/
+}
+
+.pg2top {
+    width: 1000px;
+    height: 60px;
+    /*	border: 1px solid #FFCE00;*/
+}
+
+.pg2top a {
+    font-family: "微软雅黑";
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 450px;
+}
+
+.pg2top2 a {
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+    font-size: 18px;
+    padding-left: 430px;
+}
+
+/*文字图片二模块*/
+.left3 {
+    width: 300px;
+    height: 200px;
+    float: left;
+    /*	border: 1px solid #000000;*/
+    margin-left: 15px;
+    background-image: url(../../img/index1/index/21.jpg);
+    background-repeat: no-repeat;
+}
+
+.left4 {
+    /*border: 1px #000000 solid;*/
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    float: left;
+    background-image: url(../../img/index1/index/22.jpg);
+    background-repeat: no-repeat;
+}
+
+.left5 {
+    /*border: 1px #000000 solid;*/
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    float: left;
+    background-image: url(../../img/index1/index/23.jpg);
+    background-repeat: no-repeat;
+}
+
+/*非遗之美*/
+.pg3 {
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    /*border: 1px solid #3400FF;*/
+}
+
+.pg3top {
+    width: 1000px;
+    height: 60px;
+    /*border: 1px solid #FFCE00;*/
+}
+
+.pg3top a {
+    font-family: "微软雅黑";
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 450px;
+}
+
+.pg3top2 a {
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+    font-size: 18px;
+    padding-left: 350px;
+}
+
+/*文字图片三模块*/
+.left6 {
+    /*	border: 1px solid #FF0000;*/
+    width: 1000px;
+    height: 500px;
+    margin-left: 20px;
+
+}
+
+.footon {
+    width: 1000px;
+    height: 400px;
+    background-image: url(../../img/index1/index/footon.jpg);
+}
+
+/*版权信息*/
+.footer {
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    color: #fff;
+    /*	padding: 5px 0;*/
+    background-color: #BC2332;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footcolour {
+    color: #FFF;
+}
+
+.left5 {
+    /* transform: scale3d(1.5, 1.5, 1.5); /* 在三个维度上放大1.5倍 */
+    /*  transition: transform 0.5s ease;添加过渡效果使其更平滑 */
+    transform: rotatey(180deg);
+    transition: transform 1s ease;
+    /*翻转*/
+}
+
+.left5:hover {
+    /* transform: scale3d(0.8, 0.8, 0.8);  鼠标悬停时缩小 */
+    transform: rotatey(0deg);
+
+}
+
+.left4 {
+    transform: rotatey(180deg);
+    transition: transform 1s ease;
+    /*翻转*/
+}
+
+.left3 {
+    transform: rotatey(180deg);
+    transition: transform 1s ease;
+    /*翻转*/
+}
+
+.left4:hover {
+    transform: rotatey(0deg);
+}
+
+.left3:hover {
+    transform: rotatey(0deg);
+}

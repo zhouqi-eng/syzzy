@@ -1,0 +1,481 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>刺绣艺术</title>
+	<style>
+		/* CSS Document */
+		#tou {
+			/*border:1px solid #333;*/
+			width: 1000px;
+			/*顶图大小*/
+			margin: 5px auto 5px auto;
+		}
+
+		ul,
+		li,
+		img {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			border: 0;
+		}
+
+		body {
+			font-size: 18px;
+			line-height: 30px;
+		}
+
+		/*banner样式*/
+		.banner {
+			overflow: hidden;
+			width: 1000px;
+			height: 300px;
+			background-image: url(../../img/index1/ctjy/cx/cxtop.jpg);
+		}
+
+		.wenzii {
+			margin-top: 50px;
+			margin-left: 150px;
+			width: 400px;
+		}
+
+		.wenzii a {
+			font-size: 35px;
+			font-family: "微软雅黑";
+			font-weight: bold;
+			color: #FFFFFF;
+		}
+
+		.wenzii2 a {
+			font-size: 12px;
+			font-family: "宋体";
+			width: 400px;
+			line-height: 1em;
+		}
+
+		.wenzii3 {
+			margin-top: 5px;
+		}
+
+		.wenzii3 a {
+			font-size: 22px;
+			color: #FF0004;
+			font-family: "宋体";
+			text-decoration: none;
+		}
+
+		.wenzii3 a:hover {
+			text-decoration: none;
+			color: #EA8129;
+		}
+
+		/*导航栏的样式*/
+		nav ul {
+			margin-top: -10px;
+			height: 80px;
+			/*导航栏高度*/
+			padding-left: 80px;
+			overflow: hidden;
+			background: #BC2332;
+		}
+
+		nav ul li {
+			float: left;
+			line-height: 50px;
+			/*导航栏文字高度*/
+			padding: 0 30px;
+			margin-top: 15px;
+		}
+
+		nav a {
+			font-size: 20px;
+			font-family: "微软雅黑";
+			font-weight: bold;
+			text-decoration: none;
+			color: #000000;
+		}
+
+		nav a:hover {
+			text-decoration: none;
+			color: #FFf;
+			background-color: #999;
+			margin: 10px
+		}
+
+		/*导航浮动*/
+		/* 主体部分 */
+		.pagebody {
+			width: 1000px;
+			background: #C6B7B8;
+		}
+
+		/*壁画专题*/
+		.pg1 {
+			width: 1000px;
+			height: 400px;
+		}
+
+		.pg1top {
+			width: 1000px;
+			height: 400px;
+			overflow: hidden;
+			background-image: url(../../img/index1/ctjy/cx/cxbj.jpg);
+			/*border: 1px solid #2AE028;*/
+			/*壁画专题的边框*/
+		}
+
+		.pg1top1 {
+			float: left;
+			margin-left: 20px;
+			/*border: 1px solid #FF0307;*/
+			width: 150px;
+			height: 250px;
+			margin-top: 60px;
+			margin-left: 160px;
+			background-image: url(../../img/index1/ctjy/cx/cx1.jpg);
+		}
+
+		.pg1top2 {
+			float: left;
+			margin-left: 20px;
+			/*	border: 1px solid #FF0307;*/
+			width: 150px;
+			height: 250px;
+			margin-top: 60px;
+			margin-left: 25px;
+			background-image: url(../../img/index1/ctjy/cx/cx2.jpg);
+		}
+
+		.pg1top3 {
+			float: left;
+			margin-left: 20px;
+			/*	border: 1px solid #FF0307;*/
+			width: 150px;
+			height: 250px;
+			margin-top: 60px;
+			margin-left: 25px;
+			background-image: url(../../img/index1/ctjy/cx/cx3.jpg);
+		}
+
+		.pg1top4 {
+			float: left;
+			margin-left: 30px;
+			/*	border: 1px solid #FF0307;*/
+			width: 150px;
+			height: 250px;
+			margin-top:60px;
+			margin-left: 25px;
+			background-image: url(../../img/index1/ctjy/cx/cx4.jpg);
+		}
+
+		/*文献*/
+		.pg2 {
+			width: 1000px;
+			height: 400px;
+			overflow: hidden;
+			/*border: 1px solid #2AE028;*/
+			/*文献的边框*/
+			background-image: url(../../img/index1/ctjy/cx/cxbj0_5.jpg);
+		}
+
+		.pg2top {
+			width: 1000px;
+			height: 400px;
+			overflow: hidden;
+			background-image: url(../../img/index1/ctjy/cx/cxbj0.jpg);
+		}
+
+		.pg2top2 {
+			width: 1000px;
+			height: 400px;
+			margin-left: 150px;
+			margin-top: 120px;
+		}
+
+		.pg2top2 a {
+			font-size: 16px;
+			font-family: "宋体";
+			font-weight: bold;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+
+		.pg2top2 a:hover {
+			text-decoration: none;
+			color: #FF0004;
+		}
+
+		/* < !--共创作品--> */
+		.pg3 {
+			width: 1000px;
+			height: 400px;
+		}
+
+		.pg3top {
+			width: 1000px;
+			height: 400px;
+			overflow: hidden;
+			background-image: url(../../img/index1/ctjy/cx/cxbj0.jpg);
+		}
+
+		/*九色鹿*/
+		.pg3top1 {
+			float: left;
+			margin-left: 20px;
+			/*	border: 1px solid #FF0307;*/
+			width: 250px;
+			height: 300px;
+			margin-top: 90px;
+			margin-left: 70px;
+			background: #FFFFFF;
+		}
+
+		.pg3tupian1 {
+			width: 200px;
+			height: 180px;
+			background-image: url(../../img/index1/ctjy/tc/tc001.jpg);
+			margin-left: 25px;
+		}
+
+		.pg3wenzi1 a {
+			font-weight: bold;
+			/*苏绣*/
+			font-size: 20px;
+			color: #000000;
+			margin-left: 25px;
+			text-decoration: none;
+		}
+
+		.pg3wenzi1 a:hover {
+			text-decoration: none;
+			color: #FF0004;
+		}
+
+		.pg3wenzi2 a {
+			font-size: 12px;
+			font-family: "宋体";
+			/*介绍*/
+			color: #000000;
+			margin-left: 25px;
+			text-decoration: none;
+			line-height: 1em;
+		}
+
+		/*共创作品1*/
+
+		/*天乐遐想*/
+		.pg3top2 {
+			float: left;
+			/*	border: 1px solid #FF0307;*/
+			width: 250px;
+			height: 300px;
+			margin-top: 90px;
+			margin-left: 50px;
+			background: #FFFFFF;
+		}
+
+		.pg3tupian2 {
+			width: 200px;
+			height: 180px;
+			background-image: url(../../img/index1/ctjy/tc/tc002.jpg);
+			margin-left: 25px;
+		}
+
+		.pg3wenzi3 a {
+			font-weight: bold;
+			/**/
+			font-size: 20px;
+			color: #000000;
+			margin-left: 25px;
+			text-decoration: none;
+		}
+
+		.pg3wenzi3 a:hover {
+			text-decoration: none;
+			color: #FF0004;
+		}
+
+		.pg3wenzi4 a {
+			font-size: 12px;
+			font-family: "宋体";
+			/*天乐遐想介绍*/
+			color: #000000;
+			margin-left: 25px;
+			text-decoration: none;
+			line-height: 1em;
+		}
+
+		/*千年乐舞*/
+		.pg3top3 {
+			float: left;
+			margin-left: 20px;
+			/*	border: 1px solid #DD0307;*/
+			width: 250px;
+			height: 300px;
+			margin-top: 90px;
+			margin-left: 50px;
+			background: #fff;
+		}
+
+		.pg3tupian3 {
+			width: 200px;
+			height: 180px;
+			background-image: url(../../img/index1/ctjy/tc/tc003.jpg);
+			margin-left: 25px;
+		}
+
+		.pg3wenzi5 a {
+			font-weight: bold;
+			/*千年乐舞*/
+			font-size: 20px;
+			color: #000000;
+			margin-left: 25px;
+			text-decoration: none;
+		}
+
+		.pg3wenzi5 a:hover {
+			text-decoration: none;
+			color: #FF0004;
+		}
+
+		.pg3wenzi6 a {
+			font-size: 12px;
+			font-family: "宋体";
+			/*千年乐舞介绍*/
+			color: #000;
+			margin-left: 25px;
+			text-decoration: none;
+			line-height: 1em;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="../../in.css/bj.css">
+	<style>
+		.wenzii2 {
+			background-color: #223762;
+		}
+
+		.pg1A {
+			/*	border: 1px solid #29DC53;*/
+			float: left;
+			padding-top: 20px;
+
+			width: 1000px;
+			height: 50px;
+			background: #860002
+		}
+
+		.pg1A a {
+			color: #FFf;
+			font-family: "微软雅黑";
+			font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+			font-weight: bold;
+			font-size: 30px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="tou">
+		<!--banner-->
+		<div class="banner">
+			<div class="wenzii">
+				<a>刺绣艺术</a>
+				<div class="wenzii2">
+					<a>中国刺绣起源于3000多年前。传说古代苏州一位姑娘在赶制嫁妆时，不小心在衣襟上戳了个洞，她用彩绒绣了一朵小花掩盖，从此苏州人开始喜欢穿绣花衣服。据《尚书》记载，早在虞舜之时已有刺绣；春秋时期，吴人已将刺绣工艺应用于美化生活。</a>
+				</div>
+				<div class="wenzii3">
+					<!--		<a href="#">查看更多</a>-->
+				</div>
+			</div>
+			<!--banner上的文字-->
+		</div><!--banner图片-->
+		<!--导航栏-->
+		<div class="header">
+			<div class="X">
+				<div class="pg1A">
+					<a href="../index1.html">主页</a><a>--刺绣艺术The art of embroidery </a>
+				</div>
+			</div>
+			<!--<nav>-->
+			<!-- <ul>
+		<li><a href="#"><img src="../../img/index/1.jpg"></a></li>
+    	<li><a href="#">首页</a></li>
+        <li><a href="#">非遗项目</a></li>
+        <li><a href="#">非遗活动</a></li>
+        <li><a href="#">传承人物</a></li>
+        <li><a href="#">互动交流</a></li>
+    </ul>
+    </nav>-->
+			<!--主体部分-->
+			<div class="pagebody">
+				<!--壁画专题-->
+				<div class="pg1">
+					<div class="pg1top">
+						<div class="pg1top1"></div>
+						<div class="pg1top2"></div>
+						<div class="pg1top3"></div>
+						<div class="pg1top4"></div>
+					</div>
+				</div>
+				<!--藏经洞文献-->
+				<div class="pg2"></div>
+				<!--共创作品-->
+				<!--<div class="pg3">
+		  <div class="pg2top">
+		    <div class="pg2top2">
+		      <ul>
+		        <li><a href="#">文选-运命轮</a></li>
+		        <li><a href="#">北朝写本《老子道德经想尔注》</a></li>
+		        <li><a href="#">摩尼教方面的《摩尼光佛教法仪略》</a></li>
+		        <li><a href="#">景教方面的《大秦景教三威蒙度赞》</a></li>
+		        <li><a href="#">唐景云二年（711年）张君义勋告</a></li>
+		        <li><a href="#">归义军无量寿宗要经</a></li>
+		        <li><a href="#">妙法莲华经第二譬喻品第三</a></li>
+	          </ul>
+	        </div>
+	      </div>-->
+				<div class="pg3top">
+					<div class="pg3top1">
+						<div class="pg3tupian1"></div>
+						<div class="pg3wenzi1">
+							<a href="#">苏绣</a>
+						</div>
+						<div class="pg3wenzi2">
+							<a>苏绣是中国四大名绣之一，具有图案秀丽、构思巧妙、绣工细致、针法活泼、色彩清雅的独特风格，其特点可以概括为“平、齐、细、密、匀、顺、和、光”八个字。</a>
+						</div>
+					</div>
+					<div class="pg3top2">
+						<div class="pg3tupian2"></div>
+						<div class="pg3wenzi3">
+							<a href="#">湘绣</a>
+						</div>
+						<div class="pg3wenzi4">
+							<a>湘绣以湖南长沙为中心，是对湖南地区民间刺绣艺术精华的提炼与发扬。湘绣的特点是用丝绒线（无拈绒线）绣花，色彩丰富，形态生动逼真，风格豪放。</a>
+						</div>
+					</div>
+					<div class="pg3top3">
+						<div class="pg3tupian3"></div>
+						<div class="pg3wenzi5">
+							<a href="#">蜀绣</a>
+						</div>
+						<div class="pg3wenzi6">
+							<a>蜀绣的题材大多为花鸟、走兽、虫鱼和人物等，品种除了绣屏之外，还有被面、枕套、靠垫、桌布、头巾等。</a>
+						</div>
+					</div>
+				</div>
+			</div><!--共创作品-->
+		</div><!--主体部分-->
+		<div class="footer">
+			            <span><a href="#" class="footcolour">网站首页</a>&nbsp;&nbsp;|&nbsp;<a href="#"
+					class="footcolour">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#"
+					class="footcolour">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" class="footcolour">新闻资讯</a>&nbsp;
+				&nbsp;|&nbsp;&nbsp;<a href="#" class="footcolour">更多内容</a>&nbsp;</span><br><img
+				src="../../img/index/foot.jpg"><span>copyright</span><span>©2024-2025邮箱:zhongqiwang@163.com</span><br><span>中祺网</span>
+		</div><!--版权信息-->
+	</div>
+	</div>
+</body>
+
+</html>

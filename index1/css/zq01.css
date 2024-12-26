@@ -1,0 +1,50 @@
+.nav {
+    text-align: center;
+    width: 1000px;
+    height: 60px;
+    background: #ccc;
+    margin: 0 auto;
+}
+
+.nav a {
+    font-size: 18px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+.nav ul {
+    text-align: center;
+    background: #aaa
+}
+
+.nav li {
+    width: 120px;
+    float: left;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    position: relative;
+}
+
+ul li ul li {
+    line-height: 60px;
+    height: 40px;
+    width: 60px;
+    float: right;
+}
+
+ul li ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: none;
+}
+
+ul li ul li:hover {
+    background: red;
+}
+
+ul li:hover ul {
+    display: block;
+}

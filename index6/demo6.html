@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中祺网注册页面</title>
+</head>
+<link rel="stylesheet" href="css/regrster.css">
+<!-- <script src="../js/regrster.js"></script> -->
+
+<body>
+    <div class="container">
+        <img src="img/banner.jpg">
+        <h2>欢迎注册中祺网账号</h2>
+        <form id="registration-form" action="../index.html" method="post"><!--跳转网页-->
+            <div>
+                <label for="username">用户名：</label>
+                <input type="text" id="username" required><!--必须填写-->
+            </div>
+
+            <div>
+                <label for="phone">请输入手机号码：</label>
+                <input type="tel" id="phone" required>
+                <button type="button" id="get-verification-code">获取验证码</button>
+                <input type="text" id="verification-code" placeholder="验证码" required>
+            </div>
+
+            <div>
+                <label for="password">设置密码：</label>
+                <input type="password" id="password" required>
+            </div>
+
+            <div>
+                <label for="confirm-password">确认密码：</label>
+                <input type="password" id="confirm-password" required>
+            </div>
+
+            <div>
+                <button type="submit"><a href="../index5/demo5.html">注册</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

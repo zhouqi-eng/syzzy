@@ -1,0 +1,62 @@
+#all {
+    width: 1000px;
+    margin: 5px auto 5px auto;
+}
+
+body {
+    background-image: url(../img/index1/2.jpg);
+    /* 将 'image.jpg' 替换为您的图片路径 */
+    background-repeat: no-repeat;
+    /* 防止图片重复 */
+    background-size: cover;
+    /* 图片铺满整个页面 */
+    background-attachment: fixed;
+    /* 固定背景图片，防止滚动时图片移动 */
+}
+
+.footer {
+    position: relative;
+    top: 10px;
+    float: left;
+    font-family: Arial;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 0;
+    background-color: #BC2332;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+.footcolour {
+    color: #FFF;
+}
+
+.footer a:link {
+    text-decoration: none;
+}
+
+.footer a:visited {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+
+.footer a:active {
+    text-decoration: none;
+}
+
+.vertical-line {
+    height: 60vh;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 1515px;
+    transform: translateX(-50%);
+    /* z-index: -1; */
+}

@@ -1,0 +1,5 @@
+@charset "utf-8";
+.container {
+	width: 1200px;/*顶图1200*/
+	border: 1px solid #000000;
+	margin: 5px auto 5px auto;}

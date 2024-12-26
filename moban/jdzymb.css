@@ -1,0 +1,175 @@
+/* CSS Document */
+
+#tou{
+	/*border:1px solid #333;*/
+	width:1000px;/*顶图大小*/
+	margin:5px auto 5px auto;}
+ul,li,img{ padding: 0; margin: 0; list-style: none; border: 0;}	
+body{
+	font-size: 18px;
+	line-height: 30px;
+	}
+/*banner样式*/
+.banner{
+	overflow:hidden;
+	width: 1000px;
+	height: 300px;
+	background-image: url(../img/index1/mjwx/bn.jpg);
+	}
+.wenzii{
+	margin-top: 25px;
+	margin-left: 880px;
+	width: 400px;
+	}
+.wenzii3 a{
+	font-size: 20px;
+	color: #000000;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	font-weight: bold;
+	}
+.wenzii3 a:hover{
+	text-decoration: none;
+	color: #FF0004;
+	}
+/*导航栏的样式*/
+nav ul{
+	margin-top: -10px;
+	height:80px;/*导航栏高度*/
+	padding-left:80px;
+	overflow:hidden;
+	background: #BC2332;}
+nav ul li{
+	float:left;
+	line-height:50px;/*导航栏文字高度*/
+	padding:0 30px;
+	margin-top: 15px;
+}
+nav a{
+	font-size:20px;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	text-decoration:none;
+	color:#000000;}
+nav a:hover{
+	text-decoration: none;
+	color:#FF0004;}
+<!--主体部分-->
+.pagebody{
+	width: 1000px;
+	background: #C6B7B8;
+	overflow: hidden;}
+.pgleft{
+	width: 1000px;
+	overflow: hidden;
+	}
+.pgtop{
+	background: #C5B48B;
+	width: 1000px;
+	height: 40x;
+	margin-top:8px;
+	}
+.pgtop a{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	}
+.left1{
+	width: 750px;
+	height: 350px;
+	float: left;
+	/*border: 1px solid #000000;*/
+	margin-left: 10px;
+	margin-top: 5px;
+	}
+.left1 a{
+	font-family: "宋体";
+	font-weight: bold;
+	color: #474747;
+	font-size: 18px;
+	line-height: 1em;
+	padding-left: 20px;
+	}
+.left2{
+	/*border: 1px #000000 solid;*/
+	width: 200px;
+	height: 300px;
+	float: right;
+	margin-top: 20px;
+	background-image:  url(../img/index1/mjwx/1.jpg);
+	background-repeat: no-repeat;
+	}
+	
+.pgleft1{
+	width: 1000px;
+	overflow: hidden;
+	}
+.pgtop{
+	background: #C5B48B;
+	width: 1000px;
+	height: 40x;
+	margin-top:8px;
+	}
+.pgtop a{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	}
+.left3{
+	width: 750px;
+	height: 350px;
+	float: right;
+	/*border: 1px solid #000000;*/
+	margin-left: 10px;
+	margin-top: 5px;
+	}
+.left3 a{
+	font-family: "宋体";
+	font-weight: bold;
+	color: #474747;
+	font-size: 18px;
+	line-height: 1em;
+	padding-left: 20px;
+	}
+.left4{
+	/*border: 1px #000000 solid;*/
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin-top: 20px;
+	background-image:  url(../img/index1/mjwx/2.jpg);
+	background-repeat: no-repeat;
+	}
+/*作品展示*/
+.pgleft3{
+	width: 1000px;
+	overflow: hidden;
+	}
+.bottom{
+	height: 220px;
+	margin-top: 15px;
+	}
+.b1{
+	float: left;
+	width: 300px;
+	/*border: 1px solid #011784;*/
+	height: 200px;
+	margin-left: 25px;
+	background-image: url(../img/index1/mjwx/01.jpg);
+	}
+.b2{
+	float: left;
+	width: 300px;
+	/*border: 1px solid #0D8C00;*/
+	height: 200px;
+	margin-left: 20px;
+	background-image: url(../img/index1/mjwx/02.jpg);
+	}
+.b3{
+	float: left;
+	width: 300px;
+	/*border: 1px solid #0D8C00;*/
+	height: 200px;
+	margin-left: 20px;
+	background-image:url(../img/index1/mjwx/03.jpg);
+	}

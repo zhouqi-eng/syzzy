@@ -1,0 +1,419 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>非遗活动</title>
+	<link rel="stylesheet" type="text/css" href="../in.css/bj.css">
+	<style>
+		.pulse {
+			--color: #FF6;
+			--hover: #FCF;
+		}
+
+		.pulse:hover,
+		.pulse:focus {
+			-webkit-animation: pulse 1s;
+			animation: pulse 1s;
+			box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+		}
+
+		button {
+			color: var(--color);
+			-webkit-transition: 0.25s;
+			transition: 0.25s;
+		}
+
+		button:hover,
+		button:focus {
+			border-color: var(--hover);
+			color: #0F3;
+		}
+
+		button {
+			background: none;
+			border: 2px solid;
+			font: inherit;
+			line-height: 1;
+			margin: 0.5em;
+			padding: 1em 2em;
+		}
+
+		@-webkit-keyframes pulse {
+			0% {
+				box-shadow: 0 0 0 0 var(--hover);
+			}
+		}
+
+		@keyframes pulse {
+			0% {
+				box-shadow: 0 0 0 0 var(--hover);
+			}
+		}
+	</style>
+	<style type="text/css">
+		#tou {
+			/*border:1px solid #333;*/
+			width: 1000px;
+			/*顶图大小*/
+			margin: 5px auto 5px auto;
+		}
+
+		ul,
+		li,
+		img {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			border: 0;
+		}
+
+		body {
+			font-size: 18px;
+			line-height: 30px;
+		}
+
+
+		/*banner*/
+		.banner {
+			overflow: hidden;
+			width: 1000px;
+			height: 300px;
+		}
+
+		/*导航栏的样式*/
+		nav ul {
+			margin-top: -10px;
+			height: 80px;
+			/*导航栏高度*/
+			padding-left: 30px;
+			overflow: hidden;
+			background: #BC2332;
+		}
+
+		nav ul li {
+			float: left;
+			line-height: 50px;
+			/*导航栏文字高度*/
+			padding: 0 80px;
+			margin-top: 15px;
+		}
+
+		nav a {
+			font-size: 20px;
+			font-family: "微软雅黑";
+			font-weight: bold;
+			text-decoration: none;
+			color: #000000;
+		}
+
+		nav a:hover {
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+
+		/*主体部分*/
+		.pagebody {
+			width: 1000px;
+			height: 1000px;
+			/*	background: #C6B7B8;主体背景*/
+			overflow: hidden;
+		}
+
+		/*非遗活动简介*/
+		.pg1 {
+			width: 1000px;
+			height: 320px;
+			overflow: hidden;
+			/*border: 1px solid #3400FF;*/
+		}
+
+		.pg1top {
+			width: 1000px;
+			height: 60px;
+			/*border: 1px solid #FFCE00;*/
+		}
+
+		.pg1top a {
+			font-family: "微软雅黑";
+			font-weight: bold;
+			font-size: 25px;
+			padding-left: 450px;
+		}
+
+		.pg1top2 a {
+			font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+			font-size: 18px;
+			padding-left: 320px;
+		}
+
+		/*文字图片一模块*/
+		.left1 {
+			width: 460px;
+			height: 240px;
+			float: left;
+			/*border: 1px solid #000000;*/
+			margin-left: 10px;
+			background: #dfdbd2;
+			border-radius: 10px;
+		}
+
+		.left1 a {
+			font-family: "宋体";
+			font-weight: bold;
+			color: #474747;
+			font-size: 18px;
+			line-height: 1em;
+			padding-left: 20px;
+		}
+
+		.left2 {
+			/*border: 1px #000000 solid;*/
+			width: 500px;
+			height: 240px;
+			margin-right: 10px;
+			float: right;
+			background-image: url("img/xzcy2.png");
+			background-repeat: no-repeat;
+		}
+
+		/*参观体验*/
+		.pg2 {
+			width: 1000px;
+			height: 300px;
+			overflow: hidden;
+			margin-top: 10px;
+			/*border: 1px solid #00B41C;*/
+		}
+
+		.pg2top {
+			width: 1000px;
+			height: 60px;
+			/*border: 1px solid #FFCE00;*/
+		}
+
+		.pg2top a {
+			font-family: "微软雅黑";
+			font-weight: bold;
+			font-size: 25px;
+			padding-left: 450px;
+		}
+
+		.pg2top2 a {
+			font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+			font-size: 18px;
+			padding-left: 430px;
+		}
+
+		/*文字图片二模块*/
+		.pg2bottom {
+			width: 1000px;
+			height: 300px;
+			background: #BCBCBC;
+		}
+
+		.left3 {
+			width: 300px;
+			height: 200px;
+			margin-top: 20px;
+			float: left;
+			/*border: 1px solid #000000;*/
+			margin-left: 15px;
+			background-image: url("img/cgty1.jpg");
+			background-repeat: no-repeat;
+		}
+
+		.left4 {
+			/*border: 1px #000000 solid;*/
+			width: 300px;
+			height: 200px;
+			margin-left: 30px;
+			margin-top: 20px;
+			float: left;
+			background-image: url("img/xzcy3.jpg");
+			background-repeat: no-repeat;
+		}
+
+		.left5 {
+			/*border: 1px #000000 solid;*/
+			width: 300px;
+			height: 200px;
+			margin-left: 30px;
+			margin-top: 20px;
+			float: left;
+			background-image: url("img/cgty2.jpg");
+			background-repeat: no-repeat;
+		}
+
+		/*非遗之美*/
+		.pg3 {
+			width: 1000px;
+			height: 500px;
+			overflow: hidden;
+			/*border: 1px solid #3400FF;*/
+		}
+
+		.pg3top {
+			width: 1000px;
+			height: 60px;
+			/*border: 1px solid #FFCE00;*/
+		}
+
+		.pg3top a {
+			font-family: "微软雅黑";
+			font-weight: bold;
+			font-size: 25px;
+			padding-left: 450px;
+		}
+
+		.pg3top2 a {
+			font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+			font-size: 18px;
+			padding-left: 320px;
+		}
+
+		/*文字图片三模块*/
+		.left6 {
+			/*border: 1px solid #FF0000;*/
+			width: 1000px;
+			height: 500px;
+			margin-left: 20px;
+		}
+
+		.pg3bottom {
+			width: 1000px;
+			height: 300px;
+			background: #cecabf;
+		}
+
+		/*版权信息*/
+		.footer {
+			position: relative;
+			top: 10px;
+			float: left;
+			font-family: Arial;
+			font-size: 16px;
+			color: #fff;
+			padding: 5px 0;
+			background-color: #BC2332;
+			width: 100%;
+			box-sizing: border-box;
+			text-align: center;
+		}
+
+		.footer a {
+			color: #fff;
+		}
+
+		.footcolour {
+			color: #FFF;
+		}
+
+		.footer a:link {
+			text-decoration: none;
+		}
+
+		.footer a:visited {
+			text-decoration: none;
+		}
+
+		.footer a:hover {
+			color: #FF0004;
+			text-decoration: none;
+		}
+
+		.footer a:active {
+			text-decoration: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="tou">
+		<!--banner-->
+		<!--banner-->
+		<div class="banner">
+			<img src="img/banner1.jpg">
+		</div>
+		<!--banner图片-->
+
+		<div class="header">
+			<nav>
+				<ul>
+					<li><a class="pulse" href="../index.html">首页</a></li>
+					<li><a class="pulse" href="demo1.html">非遗活动</a></li>
+					<li><a class="pulse" href="fyly/demo1.1.html">敦煌文化</a></li>
+					<li><a class="pulse" href="fyzl/demo2.1.html">宣纸之美</a></li><!--导航栏-->
+				</ul>
+			</nav>
+
+			<!--主体部分-->
+			<div class="pagebody">
+				<!--青檀-->
+				<div class="pg1">
+					<div class="pg1top">
+						<a>非遗简介</a>
+						<div class="pg1top2">
+							<a>Introduction to Intangible Cultural Heritage</a>
+						</div>
+					</div>
+					<div class="pg1bottom">
+						<div class="left1">
+							<marquee direction="up" onmouseover="this.stop()" onmouseout="this.start()" height="240"
+								scrollamount="2" scrolldelay="120">
+								<a>非物质文化遗产是指被各社区，群体，视为其文化遗产组成部分的各种传统文化表现形式，以及与传统文化表现形式相关的实物和场所，这些文化表现形式包括但不限于口头传统和表现形式，表演艺术，社会实践，仪式节庆活动，有关自然界和宇宙的知识和实践，以及传统手工艺等，非物质文化遗产在世代相传中不断地被再创造，为社区和群体提供认同感和持续感，从而增强对文化多样性和人类创造力的尊重。</a>
+							</marquee>
+						</div>
+						<div class="left2"></div>
+					</div>
+				</div>
+				<!--参观体验-->
+				<div class="pg2">
+					<div class="pg2top">
+						<a>参观体验</a>
+						<div class="pg2top2">
+							<a>Visit experience</a>
+						</div>
+					</div>
+					<div class="pg2bottom">
+						<div class="left3"></div>
+						<div class="left4"></div>
+						<div class="left5"></div>
+					</div>
+				</div>
+				<!--非遗之美-->
+				<div class="pg3">
+					<div class="pg3top">
+						<a>非遗之美</a>
+						<div class="pg3top2">
+							<a>Introduction to Intangible Cultural Heritage</a>
+						</div>
+					</div>
+					<div class="pg3bottom">
+						<div class="left6">
+							<video width="960" height="448" controls autoplay="autoplay">
+								<source src="video/1.mp4" type="video/mp4" />
+								<!--<object data="video/1.mp4" width="960" height="448">
+							<embed src="video/1.mp4" width="960" height="448" />
+						</object>-->
+							</video>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--主体部分-->
+			<!--版权信息-->
+			<div class="footer">
+				<a href="#">网站首页&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><a
+					href="#">关于我们&nbsp;&nbsp;</a></span><a>|</a>
+				<a href="#">联系我们&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><a
+					href="#">新闻资讯&nbsp;&nbsp;</a></span><a>|</a>
+				<a href="#">更多内容&nbsp;&nbsp;</a></span><a>|&nbsp;&nbsp;</a><br>
+				<span>copyright</span><span>©2024-2025邮箱:zhongqiwang@163.com</span><br><span>中祺网</span>
+				<!--版权信息-->
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

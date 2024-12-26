@@ -1,0 +1,154 @@
+.pg1bottom2 {
+    position: relative;
+    display: inline-block;
+}
+
+.pg1bottom2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.textzq1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pg1bottom2:hover .textzq1 {
+    opacity: 1;
+}
+
+.texttext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.pg1bottom1 {
+    position: relative;
+    display: inline-block;
+}
+
+.pg1bottom1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.textzq2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pg1bottom1:hover .textzq2 {
+    opacity: 1;
+}
+
+.texttext1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+.pg1bottom3 {
+    position: relative;
+    display: inline-block;
+}
+
+.pg1bottom3 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.textzq3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pg1bottom3:hover .textzq3 {
+    opacity: 1;
+}
+
+.texttext2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.pg1bottom4 {
+    position: relative;
+    display: inline-block;
+}
+
+.pg1bottom4 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.textzq4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pg1bottom4:hover .textzq4 {
+    opacity: 1;
+}
+
+.texttext3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
